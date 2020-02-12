@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MapsActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/search_place"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item
+        android:id="@+id/action_places"
+        android:icon="@drawable/all_places"
+        android:title="@string/show_all_places"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/set_distance"
+        android:icon="@drawable/ic_write"
+        android:title="@string/enable_alarm" />
+    <item
+        android:id="@+id/disable_alarm"
+        android:title="@string/disable_alarm"/>
+
+</menu>

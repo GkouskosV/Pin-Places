@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBlue"
+    tools:context=".MainActivity"
+    android:elevation="10dp">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/main_act_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="UnipiTouristApp Login Page" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="69dp" />
+
+    <ImageView
+        android:id="@+id/place_image"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:elevation="@dimen/cardview_default_elevation"
+        android:src="@drawable/places" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="38dp" />
+
+    <EditText
+        android:id="@+id/user_edit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorWhite"
+        android:hint="Enter email"
+        android:textSize="14sp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <EditText
+        android:id="@+id/pass_edit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorWhite"
+        android:hint="Place password"
+        android:textSize="14sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="49dp" />
+
+    <Button
+        android:id="@+id/signin_button"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorDarkBlue"
+        android:elevation="5dp"
+        android:text="SIGN IN"
+        android:textColor="@color/colorWhite"
+        android:textSize="14dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/sign_up_button"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="SIGN UP"
+        android:background="@color/colorDarkBlue"
+        android:elevation="5dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="14dp"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+    <Button
+        android:id="@+id/sign_out_button"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="SIGN OUT"
+        android:background="@color/colorDarkBlue"
+        android:elevation="5dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="14dp"/>
+</LinearLayout>

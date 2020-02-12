@@ -1,0 +1,29 @@
+package com.gkouskos.unipitouristapp;
+
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.widget.TextView;
+
+public class Details extends AppCompatActivity {
+
+    TextView text;
+    Toolbar addpoi_toolbar;
+    ActionBar actionBar;
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_details);
+        text = findViewById(R.id.text);
+        String title = getIntent().getStringExtra("Title");
+        addpoi_toolbar= findViewById(R.id.addpoi_toolbar);
+        setSupportActionBar(addpoi_toolbar);
+        actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
+
+        //text.setText(title);
+    }
+}

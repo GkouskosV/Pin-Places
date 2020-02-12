@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item android:id="@+id/coffee"
+            android:icon="@drawable/coffee"
+            android:title="Cafeterias" />
+        <item android:id="@+id/shopping"
+            android:icon="@drawable/shopping"
+            android:title="Shopping" />
+        <item android:id="@+id/nightlife"
+            android:icon="@drawable/nightlife"
+            android:title="Nightlife" />
+        <item android:id="@+id/restaurant"
+            android:icon="@drawable/food"
+            android:title="Restaurants" />
+        <item android:id="@+id/art"
+            android:icon="@drawable/gallery"
+            android:title="Galleries and Art" />
+        <item android:id="@+id/family"
+            android:icon="@drawable/family"
+            android:title="Child Friendly" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item android:id="@+id/add_poi"
+                android:icon="@drawable/add_poi"
+                android:title="@string/add_poi"/>
+
+                <item android:id="@+id/clear_map"
+                android:icon="@drawable/clear_markers"
+                android:title="@string/clear_all_markers"/>
+        </menu>
+    </item>
+</menu>

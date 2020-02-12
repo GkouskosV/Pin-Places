@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlue"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/addpoi_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="Add Place" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/place_image"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:elevation="@dimen/cardview_default_elevation"
+            android:src="@drawable/places" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/space"
+            android:layout_below="@+id/place_image"/>
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/space"
+            android:background="@color/colorWhite"
+            android:elevation="5dp"
+            android:hint="Place name"
+            android:textSize="14sp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:id="@+id/space2"
+            android:layout_below="@+id/title"/>
+
+        <Spinner
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/space2" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:id="@+id/space3"
+            android:layout_below="@+id/category"/>
+        <EditText
+            android:id="@+id/address"
+            android:layout_below="@+id/space3"
+            android:hint="Address"
+            android:textSize="14dp"
+            android:elevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/colorWhite"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/space4"
+            android:layout_below="@+id/address"/>
+
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/space4"
+            android:background="@color/colorWhite"
+            android:elevation="5dp"
+            android:hint="City"
+            android:textSize="14dp" />
+
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:id="@+id/space5"
+            android:layout_below="@id/space4"
+            android:layout_toRightOf="@id/city"/>
+
+        <EditText
+            android:id="@+id/zip_code"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/space4"
+            android:layout_toRightOf="@id/space5"
+            android:background="@color/colorWhite"
+            android:elevation="5dp"
+            android:hint="Zip Code"
+            android:textSize="14dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/space6"
+            android:layout_below="@+id/city"/>
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/space6"
+            android:background="@color/colorWhite"
+            android:elevation="5dp"
+            android:hint="Place description..."
+            android:gravity="start"
+            android:textSize="14dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/space7"
+            android:layout_below="@+id/description"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/add_button"
+            android:background="@color/colorDarkBlue"
+            android:textSize="14dp"
+            android:layout_below="@+id/space7"
+            android:text="ADD PLACE"
+            android:elevation="5dp"
+            android:textColor="@color/colorWhite"
+            android:onClick="addPoi"/>
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

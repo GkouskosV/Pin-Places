@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "951338833541",
+    "firebase_url": "https://unipitouristapp-3e927.firebaseio.com",
+    "project_id": "unipitouristapp-3e927",
+    "storage_bucket": "unipitouristapp-3e927.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951338833541:android:1664b68387b46770",
+        "android_client_info": {
+          "package_name": "com.gkouskos.unipitouristapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951338833541-dr3ue4r76gti0bcg6phb0kjdcc0e8ud7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gkouskos.unipitouristapp",
+            "certificate_hash": "ecb2cc1c66d4c55312b5e2d996d043668c745dcd"
+          }
+        },
+        {
+          "client_id": "951338833541-ju4fjlse6v1vu3pn0no656l2d9ea3niv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVLrgbnzqv32UKhV7Y9KGONUZHTD5rYjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951338833541-ju4fjlse6v1vu3pn0no656l2d9ea3niv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

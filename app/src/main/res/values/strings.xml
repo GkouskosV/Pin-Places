@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">UnipiTouristApp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="enable_alarm">Enable distance alarm</string>
+    <string name="disable_alarm">Disable alarm</string>
+    <string name="search_place">Search for place</string>
+    <string name="pois">Points of Interest</string>
+    <string name="nav_drawer_open">Open navigation drawer</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
+    <string name="add_poi">Add a new place</string>
+    <string name="show_all_places">Show all Places</string>
+    <string name="clear_all_markers">Clear all markers</string>
+    <string name="search_hint">Search by name...</string>
+    <string-array name="categories">
+        <item>Cafeterias</item>
+        <item>Shopping</item>
+        <item>Nightlife</item>
+        <item>Restaurants</item>
+        <item>Galleries and Art</item>
+        <item>Child Friendly</item>
+    </string-array>
+</resources>
